@@ -63,7 +63,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 📞 Contact
 For any questions or support, reach out to:
-✉️ your-raghavanand1210@example.com
+✉️ your-raghavanand1210@gmail.com
 
 🎉 Enjoy Ordering with OneWave of Food! 🎉
 Let’s make food ordering a fun, fast, and delightful experience! 🍴🍔
