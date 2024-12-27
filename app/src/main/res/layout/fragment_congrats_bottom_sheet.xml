@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".CongratsBottomSheet">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/redback"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/latobold"
+        android:textAllCaps="false"
+
+        android:layout_gravity="center_horizontal"
+        android:text="Congrats\n Your Order Placed" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:src="@drawable/illustration"/>
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="157dp"
+    android:layout_height="57dp"
+    android:id="@+id/GoHome"
+    android:textSize="20sp"
+    android:fontFamily="@font/latoregular"
+    android:layout_gravity="center_horizontal"
+    android:textColor="@color/white"
+
+    android:text="Go Home"
+    android:textAllCaps="false"
+    android:layout_marginTop="32dp"
+    android:background="@drawable/cstmbtn"
+    />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+</FrameLayout>

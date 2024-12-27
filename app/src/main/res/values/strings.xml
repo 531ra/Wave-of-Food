@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Wave of Food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Client_Id">1048792293561-v3lku0ctvhv47bgqg417kdcdcv0ojtan.apps.googleusercontent.com</string>
+</resources>

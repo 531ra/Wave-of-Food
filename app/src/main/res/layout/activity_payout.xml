@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".PayoutActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:clickable="true"
+        android:src="@drawable/arrow_circle_down"
+        android:focusable="true"
+        android:background="@android:color/transparent"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/latobold"
+
+        android:text="Edit"
+        android:textColor="@color/redback"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/profileedittextshape"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <TextView
+
+            android:textColor="@color/black"
+            android:fontFamily="@font/latobold"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            android:text="Name" />
+
+        <EditText
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:id="@+id/name"
+            android:fontFamily="@font/latoregular"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/profileedittextshape"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <TextView
+            android:textColor="@color/black"
+
+            android:fontFamily="@font/latobold"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            android:text="Address" />
+
+        <EditText
+            android:id="@+id/Address"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:fontFamily="@font/latoregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/profileedittextshape"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <TextView
+
+            android:fontFamily="@font/latobold"
+            android:textColor="@color/black"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            android:text="Phone" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:fontFamily="@font/latoregular"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="phone"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/profileedittextshape"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <TextView
+               android:fontFamily="@font/latobold"
+            android:layout_width="61dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            android:text="Payment Method" />
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:textColor="@color/redback"
+            android:fontFamily="@font/latoregular"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Online Pay" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/profileedittextshape"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <TextView
+
+            android:fontFamily="@font/latobold"
+            android:textColor="@color/black"
+            android:layout_width="61dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            android:text="Total Amount" />
+
+        <EditText
+            android:id="@+id/totalAmount"
+            android:fontFamily="@font/latoextrabold"
+            android:textColor="@color/redback"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:gravity="end"
+            android:paddingEnd="32dp"
+            android:inputType="none"
+            android:text="₹56" />
+    </LinearLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/PlacemyOrder"
+        android:textAllCaps="false"
+        android:layout_width="230dp"
+        android:textColor="@color/redback"
+        android:fontFamily="@font/latobold"
+
+        android:layout_marginBottom="130dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/edittextcstm"
+        android:gravity="center"
+        android:layout_gravity="bottom|center"
+        android:layout_height="56dp"
+        android:text="Place My Order"/>
+
+</FrameLayout>
